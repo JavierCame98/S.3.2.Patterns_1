@@ -1,6 +1,6 @@
 package org.example.AbstractFactory;
 
-record USAPhone (String phone) implements Phone{
+public record USAPhone (String phone) implements Phone{
 
     @Override
     public String phone(){
